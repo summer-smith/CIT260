@@ -1,25 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package gallonstoliters;
 
 /**
- *
- * @author Tyler
+ * Program: Gallons to Liters
+ * 
+ * Summary: Converts a hard coded gallon value
+ *          to liters and displays the result
+ * 
+ * @author Summer
  */
 public class GallonsToLiters {
 
   /**
-   * @param args the command line arguments
+   * Driver function -- no subclasses
    */
   public static void main(String[] args) {
-    
-    
-    // TODO code application logic here'
-    int gallons = 0;
-    
+      //Initialize variables
+      double gallons = 10; //a double is really much to large for the given purposes...
+      double liters;  //just saying.
+      
+      
+      //Apply logic
+      liters = gallons * 3.7854;
+      
+      //Display results in command line
+      System.out.println(gallons + " gallons is " + liters + " liters!");
+      }
   }
-  
-}
